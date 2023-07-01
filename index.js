@@ -12,7 +12,7 @@ const questions = inquirer.prompt([
     {
         type: 'input',
         name: 'description',
-        message: 'Provide a discription of your project',
+        message: 'Provide a discription for your project',
     }]);
 
 // TODO: Create a function to write README file

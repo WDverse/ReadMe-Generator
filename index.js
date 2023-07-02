@@ -51,16 +51,18 @@ const questions = inquirer
             name: 'contribution',
             message: 'What does the user need to know about contributing to the repo?',
         },
-    ]);
-    // .then((data) => {
-    //     const filename = `${data.name.toLowerCase().split(' ').join('')}.json`;
-    
-    //     fs.writeFile(filename, JSON.stringify(data, null, '\t'), (err) =>
-    //         err ? console.log(err) : console.log('Success!')
-    //     );
-    // });
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) { }
+    ])
+    .then((data) => {
+        const filename = `README.MD`;
+        writeToFile(filename, data);
+    });
+// Function to write README file
+function writeToFile(filename, data) {
+    fs.writeFile(filename, JSON.stringify(data, null, '\t'), (err) =>
+        err ? console.log(err) : console.log('Success!')
+    );
+}
+
 
 // TODO: Create a function to initialize app
 function init() { }

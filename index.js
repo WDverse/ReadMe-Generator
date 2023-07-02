@@ -49,7 +49,7 @@ const questions = inquirer
         {
             type: 'input',
             name: 'contribution',
-            message: '?What does the user need to know about contributing to the repo?',
+            message: 'What does the user need to know about contributing to the repo?',
         },
     ]);
     // .then((data) => {

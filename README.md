@@ -1,6 +1,6 @@
-# node js
+# nodejs
 
-  ![GitHub license](https://img.shields.io/badge/license-BSD 3-blue.svg)
+  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
   ## Description
   for demo
@@ -33,7 +33,7 @@
   
   ## License
 
-  This project is licensed under the BSD 3 license.
+  This project is licensed under the GPL 3.0 license.
 
   ## Contributing
 
@@ -45,7 +45,7 @@
   To run tests, run the following command:
 
   ```
-  npm test
+  npm run test
   ```
   
   ## Questions

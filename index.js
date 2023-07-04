@@ -1,4 +1,4 @@
-// TODO: Include packages needed for this application
+// Includes packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
@@ -30,7 +30,7 @@ const questions = inquirer
             type: 'list',
             name: 'license',
             message: 'What kind of license should your project have?',
-            choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None']
+            choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3',]
         },
         {
             type: 'input',
@@ -63,10 +63,3 @@ function writeToFile(filename, data) {
         err ? console.log(err) : console.log('Success!')
     );
 }
-
-
-// // TODO: Create a function to initialize app
-// function init() { }
-
-// // Function call to initialize app
-// init();

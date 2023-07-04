@@ -45,4 +45,4 @@
   ## Tests
 
  The following video shows the application's functionality:
- [Walkthrough Video](https://drive.google.com/file/d/1nKrqmksPZR-hgdgYB2J8p96LsZD2YLXe/view)
+ [Walkthrough Video](https://drive.google.com/file/d/1Gp1Ym_BBWqGjvdHWWVU1mBc5lNENNqv8/view)

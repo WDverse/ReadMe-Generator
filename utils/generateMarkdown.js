@@ -18,6 +18,7 @@ function renderLicenseBadge(license) {
   else if (licenseType === 'None') {
     yourLicesnse;
   }
+  return yourLicesnse;
 }
 
 // TODO: Create a function that returns the license link
@@ -30,9 +31,10 @@ function renderLicenseSection(license) { }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+  let licenseBadge = renderLicenseBadge(data);
   return `# ${data.title}
 
-  ![GitHub license](https://img.shields.io/badge/license-${data.license}-blue.svg)
+  ${licenseBadge}
 
   ## Description
   ${data.description}

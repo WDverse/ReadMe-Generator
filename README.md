@@ -1,6 +1,6 @@
 # nodejs
 
-  ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+  ![GitHub license](https://img.shields.io/badge/license-APACHE 2.0-blue.svg)
 
   ## Description
   for demo
@@ -24,7 +24,8 @@
   To install neccessary dependencies, run the following command:
   
   ```
-  npm i
+  npm install
+  ```
 
   ## Usage 
 
@@ -32,7 +33,7 @@
   
   ## License
 
-  This project is licensed under the MIT license.
+  This project is licensed under the APACHE 2.0 license.
 
   ## Contributing
 
@@ -45,6 +46,7 @@
 
   ```
   npm test
+  ```
   
   ## Questions
 

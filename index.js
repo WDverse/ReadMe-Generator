@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
+const generateMarkdown = require('./utils/generateMarkdown');
 
 // An array of questions for user input
 const questions = inquirer
@@ -48,7 +49,7 @@ const questions = inquirer
         },
         {
             type: 'input',
-            name: 'contribution',
+            name: 'contributing',
             message: 'What does the user need to know about contributing to the repo?',
         },
     ])
@@ -58,7 +59,7 @@ const questions = inquirer
     });
 // Function to write README file
 function writeToFile(filename, data) {
-    fs.writeFile(filename, JSON.stringify(data, null, '\t'), (err) =>
+    fs.writeFile(filename, generateMarkdown(data), (err) =>
         err ? console.log(err) : console.log('Success!')
     );
 }

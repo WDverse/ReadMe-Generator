@@ -1,9 +1,9 @@
-# nodejs
+# Readme Generator
 
-  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
-  for demo
+  Generates a readme file in the CLI uisng node.js
 
   ## Table of Contents
 
@@ -33,7 +33,7 @@
   
   ## License
 
-  This project is licensed under the APACHE 2.0 license.
+  This project is licensed under the MIT license.
 
   ## Contributing
 
@@ -45,11 +45,11 @@
   To run tests, run the following command:
 
   ```
-  npm run test
+  npm test
   ```
   
   ## Questions
 
-  For further questions about the repo, open an issue or contact me directly at e_appiagyei@outlook.com. You can find more of my work at [)WDverse](https://github.com/WDverse)
+  For further questions about the repo, open an issue or contact me directly at e_appiagyei@outlook.com. You can find more of my work at [WDverse](https://github.com/WDverse)
 
 

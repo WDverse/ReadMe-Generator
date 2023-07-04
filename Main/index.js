@@ -54,7 +54,7 @@ const questions = inquirer
         },
     ])
     .then((data) => {
-        const filename = `README.MD`;
+        const filename = `README.md`;
         writeToFile(filename, data);
     });
 // Function to write README file

@@ -57,6 +57,7 @@ function generateMarkdown(data) {
   
   \`\`\`
   ${data.dependencies}
+  \`\`\`
 
   ## Usage 
 
@@ -77,6 +78,7 @@ function generateMarkdown(data) {
 
   \`\`\`
   ${data.tests}
+  \`\`\`
   
   ## Questions
 

@@ -27,7 +27,7 @@
 
   ## Usage 
 
-  To use this application, ensure you are in the "Main" directory by coping the path to "Main" and changing to directory. Run  
+  To use this application, ensure you are in the "Main" directory by coping the path to "Main" and changing to directory. Run:
   ```
   node index.js 
    ```

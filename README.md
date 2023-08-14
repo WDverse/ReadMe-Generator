@@ -12,7 +12,7 @@
 
   * [License](#license)
 
-  * [Contributing](#contributing)
+  * [Credit](#credit)
   
   * [Tests](#tests)
   
@@ -37,7 +37,7 @@
 
   N/A
 
-  ## Contributing
+  ## Credit
 
   AskBCS tutors
 
